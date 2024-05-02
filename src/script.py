@@ -29,10 +29,10 @@ go = driver.find_element(By.ID, 'goButton')
 go.click()
 
 username = driver.find_element(By.ID, 'username')
-username.send_keys("rzhao20")
+username.send_keys("username") # dummy username
 
 password = driver.find_element(By.ID, 'password')
-password.send_keys('Ocean1812?')
+password.send_keys('password') # dummy password
 
 loginAction = ActionChains(driver)
 
